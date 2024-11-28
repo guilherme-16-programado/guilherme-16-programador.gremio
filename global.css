@@ -1,4 +1,3 @@
-
 @import url(header.css);
 @import url(main.css);
 
@@ -11,12 +10,14 @@
 :root {
     --text: #edf1f7;
     --roxo: #4a0754;
-    --roxoescuro: #170033;
+    --roxoescuro: #170033;        
     --roxoescuro2: #0f0020;
-    --roxoclaro: #800080;
+    --roxoclaro: #C77DFF;
 }
 
-body, button, a {
+body,
+button,
+a {
     color: var(--text);
     font: 400 1rem "Mukta", sans-serif;
 }
@@ -28,4 +29,3 @@ a {
 button:hover {
     cursor: pointer;
 }
-
