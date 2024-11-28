@@ -1,0 +1,31 @@
+@import url(header.css);
+@import url(main.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #edf1f7;
+    --roxo: #4a0754;
+    --roxoescuro: #170033;        
+    --roxoescuro2: #0f0020;
+    --roxoclaro: #C77DFF;
+}
+
+body,
+button,
+a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
